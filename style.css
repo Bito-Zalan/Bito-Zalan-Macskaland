@@ -1,0 +1,279 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  width: 80%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fejlec {
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+.nav {
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.elso_ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.elso_ul li {
+  padding: 20px;
+  background-color: rgb(196, 128, 3);
+  border-radius: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.keresem_a {
+  background-color: rgb(196, 128, 3);
+  border-radius: 40px;
+  padding: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.keresem_div {
+  margin-top: 40px;
+}
+.fejlec h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.623);
+}
+
+.elso_ul li:hover {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  .hover_a {
+    color: black;
+  }
+}
+
+.elso_ul li:active {
+  padding: 20px;
+  background-color: rgb(206, 206, 206);
+  border-radius: 40px;
+  .hover_a {
+    color: black;
+  }
+}
+
+.keresem_div a:hover {
+  background-color: white;
+  border-radius: 40px;
+  padding: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  color: black;
+}
+
+.keresem_div a:active {
+  background-color: rgb(206, 206, 206);
+  border-radius: 40px;
+  padding: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  color: black;
+}
+
+.masodik {
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding: 10px;
+}
+.oldal {
+  background-color: rgb(27, 27, 27);
+}
+
+.masodik h2 {
+  margin-bottom: 20px;
+}
+
+.masodik_ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+  margin: auto;
+  list-style: none;
+  gap: 50px;
+}
+
+.masodik_ul li {
+  background-color: rgb(196, 128, 3);
+  border-radius: 40px;
+  padding: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.masodik_ul li:hover{
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  padding: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  .hover_a {
+    color: black;
+  } 
+}
+
+.masodik_ul li:active {
+  background-color: rgb(206, 206, 206);
+  border-radius: 40px;
+  padding: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  
+  .hover_a {
+    color: black;
+  } 
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+h3{
+  text-align: center;
+  color: white;
+}
+.kepek{
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:20px;
+}
+.norveg{
+  background-image: url("images/norveg macska.jpg");
+  background-size: cover;
+  border-radius: 10%;
+  margin: 20px;
+  
+}
+.mainmacska{
+  background-image: url("images/main coon.jpg");
+  background-size: cover;
+  border-radius: 10%;
+  padding-bottom: 500px;
+  margin: 20px;
+}
+.figyelj{
+  padding-bottom: 40px;
+}
+.figyelnivalo{
+  color: white;
+  margin-left: 5%;
+}
+.harmadik_ul{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 80%;
+  margin-left: 62%;
+  list-style: none;
+  gap: 50px; 
+}
+.harmadik_ul li{
+  background-color: rgb(196, 128, 3);
+  border-radius: 40px;
+  padding: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+.harmadik_ul li:hover{
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  padding: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  .hover_a {
+    color: black;
+  } 
+}
+.harmadik_ul li:active {
+  background-color: rgb(206, 206, 206);
+  border-radius: 40px;
+  padding: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  
+  .hover_a {
+    color: black;
+  } 
+}
+.benti{
+  padding-top: 90px;
+  padding-bottom: 10px;
+}
+.figyelnivalo{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.bengali{
+  background-image: url("images/bengali.jpg");
+  background-size: cover;
+  border-radius: 10%;
+  margin: 20px;
+  
+}
+.megeza{
+  background-image: url("images/meg ez a cica.jpg");
+  background-size: cover;
+  border-radius: 10%;
+  padding-bottom: 500px;
+  margin: 20px;
+}
+.fedezd{
+  padding-top: 30px;
+}
+
+
+
+
+
